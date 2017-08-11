@@ -52,13 +52,36 @@
 	font-family: FontAwesome;
 }
 
-.react-logo {
-	animation: react-logo-spin infinite 20s linear;
+.effect-spin {
+	animation: spin infinite 20s linear;
 }
 
-@keyframes react-logo-spin {
+@keyframes spin {
 	from { transform: rotate(0deg); }
 	to { transform: rotate(360deg); }
+}
+
+.effect-bounce {
+	animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+	0%, 20%, 70%, 100% { transform: translateY(0px); }
+	40% { transform: translateY(-10px); }
+	50% { transform: translateY(-7px); }
+	60% { transform: translateY(-3px); }
+	80% { transform: translateY(-3px); }
+}
+
+.effect-pulse {
+	animation: pulse 2.5s infinite;
+}
+
+
+@keyframes pulse {
+	0% { transform: scale(1); }
+	50% { transform: scale(1.2); }
+	100% { transform: scale(1); }
 }
 
 /* Reset */
