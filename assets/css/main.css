@@ -1835,7 +1835,12 @@
 			color: #3088f3;
 		}
 
-	strong, b {
+	strong {
+		color: #555;
+		font-weight: 400;
+	}
+
+	b {
 		color: #555;
 		font-weight: 400;
 	}
@@ -2356,13 +2361,13 @@
 		}
 
 	ul {
-		list-style: disc;
+		/*list-style: disc;*/
 		margin: 0 0 2em 0;
-		padding-left: 1em;
+		/*padding-left: 1em;*/
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			/*padding-left: 0.5em;*/
 		}
 
 		ul.alt {
@@ -2811,6 +2816,18 @@
 			.main.style2 .icon.major {
 				color: #ffffff;
 			}
+
+            .icon.style1 {
+                color: rgba(54, 138, 240, 0.71);
+            }
+
+            .icon.style2 {
+                color: rgba(82, 97, 205, 0.71);
+            }
+
+            .icon.style3 {
+                color: rgba(111, 55, 169, 0.71);
+            }
 
 /* Header */
 
